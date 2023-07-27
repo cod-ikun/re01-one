@@ -4,54 +4,57 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>王骉犇</title>
-  </head>
-  <body style="margin: 0;">
-  <div style="text-align: center;color: aqua;">
-      <h1>超越的传奇之旅</h1>
-</div>
-    <div style="
-      max-width: 760px;
-      margin: 30px auto;
-      padding: 15px;
-      line-height: 1.7;
-    ">
-    <p>在雷诺尔带领村庄的人们燃起希望的同时，一场骇人的阴谋悄然铺展开来。神秘的黑暗势力觊觎着铎神的力量，他们渴望将其掌握在自己手中，为非作歹。
-
-        随着时间的推移，村庄遭到了黑暗势力的袭击，家园被破坏，人们流离失所。雷诺尔明白，他必须挺身而出，保护村庄和铎神的力量不受侵害。
-        
-        雷诺尔寻求同道中人，踏上了一段新的征程。他找到了失散的龙族、狮鹫以及其他种族的战士们，组建了一支强大而团结的队伍。他们共同决定，要一同抵御黑暗势力的入侵，保护铎神的力量。
-        
-        他们面临着一场惊心动魄的战斗，与黑暗势力展开了殊死搏斗。战线拉长，爆发出魔法冲击和剑光交错的精彩一幕。雷诺尔发挥着领导者的职责，指挥队友们协同作战，他们时而团结一致，时而灵活应对，展现出无与伦比的战斗智慧和勇气。
-        
-        然而，黑暗势力的力量更为恐怖和残暴，他们不断调动更多的追随者，企图彻底征服村庄。雷诺尔深知，他们必须找到黑暗势力的源头，才能真正消除这场威胁。
-        
-        经过紧张的搜寻，队伍终于找到了黑暗势力的巢穴。潜伏其中的邪恶首领展现出强大的黑暗魔法，试图将雷诺尔等人击败。然而，在队友们的支持下，雷诺尔释放出内心的力量，与邪恶首领展开了一场惊心动魄的决战。
-        
-        在生死边缘挣扎的瞬间，雷诺尔凭借着坚定的信念和勇气，最终打败了邪恶首领。黑暗势力终于被彻底击溃，村庄恢复了和平与安宁。
-        
-        雷诺尔和他的战友们胜利归来，村庄的人们纷纷欢呼庆贺。他们明白，这场战斗不仅仅是为了保护铎神的力量，更是为了捍卫正义和自由。
-        
-        从此以后，村庄的人们深信铎神的力量，他们用它来构筑一个更美好的未来。雷诺尔被全村人们奉为英雄，他的冒险精神和坚韧不拔的品质将永远激励着大家。
-        
-        </p>
-    </div>
-    <div style="text-align: center;
-    color: aqua;">
-        <a href="index.html">上一页</a>
-        <p>  </p>
-        <a href="re01.html">下一页</a>
-    </div>
-   
-	  <div style="
-      background-color: #f1f1f1;
-      text-align: center;
-      padding: 40px;
-      font-size: 12px;
-      "
-    >
-      <p>版权所有：王镇铎</p>
+  
+    <style>
+        html {
+          height: 100%;
+          margin: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;}
+          body {
+              background-image: url('qwe.jpg');
+              background-size: cover; }
+      </style>
+  <script>
+    function validateAnswers() {
+      var userAnswer1 = document.getElementById("userAnswer1").value;
+      var userAnswer2 = document.getElementById("userAnswer2").value;
+      var userAnswer3 = document.getElementById("userAnswer3").value;
+      var correctAnswer1 = "王骉犇";
+      var correctAnswer2 = "男";
+      var correctAnswer3 = "女";
       
-    </div>
-  </body>
-
+      if (userAnswer1 === correctAnswer1 && userAnswer2 === correctAnswer2 && userAnswer3 === correctAnswer3) {
+        window.location.href = "re01.html";
+      } else {
+        alert("错了 大SB");
+      }
+    }
+  </script>
+  
+</head>
+<body>
+  <div style="text-align: center;">
+      <label for="userAnswer1" style="color:rgb(175, 186, 235) ;">姓名 </label>
+  <input type="text" style="background-color: transparent;border-color:teal" id="userAnswer1">
+  <br>
+</div>
+<p> </p>
+<div style="text-align: center;">
+  <label for="userAnswer2" style="color:rgb(175, 186, 235);">性别 </label>
+  <input type="text" style="background-color: transparent;border-color:teal" id="userAnswer2">
+  <br>
+</div>
+<p> </p>
+  <div style="text-align: center;">
+  <label for="userAnswer3" style="color:rgb(175, 186, 235);">爱好 </label>
+  <input type="text" style="background-color: transparent;border-color:teal" id="userAnswer3">
+  <br>
+</div>
+<p> </p>
+<div style="text-align: center;">
+  <button onclick="validateAnswers()"  style="border-width: 1px;background-color: transparent;border-color:teal;color:rgb(175, 186, 235) ;">走你</button></div>
+</body>
+</html>
 </html>
