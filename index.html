@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
@@ -14,7 +14,8 @@
           align-items: center;}
           body {
               background-image: url('qwe.jpg');
-              background-size: cover; }
+              background-size: cover;background-position:center center;
+          background-repeat:no-repeat; }
       </style>
   <script>
     function validateAnswers() {
@@ -36,25 +37,26 @@
 </head>
 <body>
   <div style="text-align: center;">
-      <label for="userAnswer1" style="color:rgb(175, 186, 235) ;">姓名 </label>
-  <input type="text" style="background-color: transparent;border-color:teal" id="userAnswer1">
+      <label for="userAnswer1" style="color:white ;">姓名  </label>
+  <input type="text" style="background-color: transparent;border-color:teal;color:white;" id="userAnswer1">
   <br>
 </div>
 <p> </p>
 <div style="text-align: center;">
-  <label for="userAnswer2" style="color:rgb(175, 186, 235);">性别 </label>
-  <input type="text" style="background-color: transparent;border-color:teal" id="userAnswer2">
+  <label for="userAnswer2" style="color:white;">性别  </label>
+  <input type="text" style="background-color: transparent;border-color:teal;color:white;" id="userAnswer2">
   <br>
 </div>
 <p> </p>
   <div style="text-align: center;">
-  <label for="userAnswer3" style="color:rgb(175, 186, 235);">爱好 </label>
-  <input type="text" style="background-color: transparent;border-color:teal" id="userAnswer3">
+  <label for="userAnswer3" style="color:white;">爱好  </label>
+  <input type="text" style="background-color: transparent;border-color:teal;coi
+lor:white;" id="userAnswer3">
   <br>
 </div>
 <p> </p>
 <div style="text-align: center;">
-  <button onclick="validateAnswers()"  style="border-width: 1px;background-color: transparent;border-color:teal;color:rgb(175, 186, 235) ;">走你</button></div>
+  <button onclick="validateAnswers()"  style="border-width: 1px;background-color: transparent;border-color:teal;color:white ;">走你</button></div>
 </body>
 </html>
 </html>
